@@ -1,0 +1,24 @@
+/******************************************************************************/
+/*******************          ITM - INPUT type=FILE         *******************/
+/******************************************************************************/
+.itm-input-file {
+    width: 25%;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    cursor: pointer;
+}
+
+.itm-input-file:focus + label,
+.itm-input-file + label:hover {
+    cursor: pointer;
+}
+
+.itm-view-picture img {
+    text-align: center;
+}
+.itm-view-picture img {
+    width: 100%;
+    max-width: 150px;
+    max-height: 150px;
+}
